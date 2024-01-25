@@ -56,3 +56,20 @@ button {
     cursor: pointer;
     border-radius: 10px;
 }
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+li{
+    background-color: #f0f0f0;
+    border: 1px solid black;
+    padding: 10px;
+    margin-bottom: 10px;
+    cursor: grab;
+    display: inline;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+li:hover{
+   background-color: gray;
+}
