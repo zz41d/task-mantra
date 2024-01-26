@@ -1,23 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Task Manager</title>
+
     <link rel="stylesheet" href="./index.css">
-    <script src="./index.js"></script>
 
 </head>
-<body>
-    <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <title>Task Manager</title>
-    
-</head>
+
 <body>
     <div id="taskContainer">
         <div id="taskForm">
@@ -28,24 +20,26 @@
             <textarea id="taskDescription"></textarea>
 
             <label for="taskDate">Date *</label>
-            <input type="date" id="taskDate" min="" required>
-
-            <button onclick="addTask()">Add Task</button>
-        </div>
-
-                <div>
-            <ul id="taskList" onclick="day()">
-                <li id="mon">MON</li>
+            <input type="date" id="taskDate" min="2024-01-25" required>
+            <ul id="days">
+                <li>MON</li>
                 <li>TUE</li>
                 <li>WED</li>
                 <li>THU</li>
                 <li>FRI</li>
                 <li>SAT</li>
                 <li>SUN</li>
-              </ul>
+            </ul>
+
+            <button onclick="addTask()">Add Task</button>
+
+
         </div>
+        
+
+        <script src="index.js"></script>
+
     </div>
 </body>
-</html>
-</body>
+
 </html>
